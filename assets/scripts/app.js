@@ -27,3 +27,10 @@ function greet(userName, message) {
 
 const greeting = greet("Aditi","Hello"); // because function is returning something
 console.log(greeting);
+
+// arrow function/anonymous function
+const greetAnon = (userName, message) => {
+    // console.log(userName);
+    // console.log(message);
+    return userName + " " + message;
+}
