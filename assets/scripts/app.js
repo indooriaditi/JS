@@ -94,3 +94,22 @@ const user2 = {
     major: "CS",
     ...user
 }
+
+// [Control Structures]
+
+// If
+const passKey  = prompt("key");
+
+if (passKey === "Hello") {
+    console.log("works");
+} else if(passKey === "hello") {
+    console.log("also works");
+} else {
+    console.log("access not granted");
+}
+
+// For-Of
+
+for (const hobby of hobbies) {
+    console.log(hobby);
+}
