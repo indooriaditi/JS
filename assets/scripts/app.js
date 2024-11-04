@@ -34,3 +34,30 @@ const greetAnon = (userName, message) => {
     // console.log(message);
     return userName + " " + message;
 }
+
+//[OOP]
+const user = {
+    name: "Aditi",
+    age: 24,
+    
+    greet() {
+        console.log(`Hello, my name is ${this.name}`);
+    }
+}
+
+user.greet();
+
+class User {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    greet() {
+        console.log('Hi');
+    }
+}
+
+const userobj = new User('Aditi', 24);
+userobj.greet();
+console.log(userobj);
