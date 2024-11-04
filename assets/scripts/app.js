@@ -76,3 +76,12 @@ const hobbies2 = hobbies.map((item) => item + "!"); // can convert an item to an
 console.log(hobbies2);
 
 const hobbies3 = hobbies.map((item) => ({text: item})); // converting to objects
+
+// [Destructuring]
+const [firstname, lastName] = ["Aditi", "Indoori"];
+console.log(firstname);
+
+const {name, age} = { // must use same name as the property name
+    name: "Aditi",
+    age: 24,
+}
