@@ -115,3 +115,13 @@ for (const hobby of hobbies) {
 }
 
 // [DOM] - A strength of JS, we can select and change elements of a HTML document
+
+// [Functions as values]
+// We can pass functions as values to other functions
+
+function handleTimeout() {
+    console.log("Timeout!");
+}
+
+setTimeout(handleTimeout, 3000); // no parenthesis when calling function because we dont want to execute it immediately
+
