@@ -35,7 +35,7 @@ const greetAnon = (userName, message) => {
     return userName + " " + message;
 }
 
-//[OOP]
+// [OOP]
 const user = {
     name: "Aditi",
     age: 24,
@@ -61,3 +61,18 @@ class User {
 const userobj = new User('Aditi', 24);
 userobj.greet();
 console.log(userobj);
+
+// [Arrays]
+const hobbies = ["Cooking", "Singing", "Dancing"];
+console.log(hobbies[1]);
+
+hobbies.push("Coding");
+
+const idx = hobbies.findIndex((item) => item === "Coding");
+
+console.log(idx);
+
+const hobbies2 = hobbies.map((item) => item + "!"); // can convert an item to any other type
+console.log(hobbies2);
+
+const hobbies3 = hobbies.map((item) => ({text: item})); // converting to objects
