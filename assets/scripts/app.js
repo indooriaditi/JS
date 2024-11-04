@@ -125,3 +125,13 @@ function handleTimeout() {
 
 setTimeout(handleTimeout, 3000); // no parenthesis when calling function because we dont want to execute it immediately
 
+// [Function inside a function]
+function init() {
+    function greet() {
+        console.log("Hello!");
+    }
+
+    greet();
+}
+
+init();
