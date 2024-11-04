@@ -113,3 +113,5 @@ if (passKey === "Hello") {
 for (const hobby of hobbies) {
     console.log(hobby);
 }
+
+// [DOM] - A strength of JS, we can select and change elements of a HTML document
