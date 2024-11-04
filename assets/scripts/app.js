@@ -85,3 +85,12 @@ const {name, age} = { // must use same name as the property name
     name: "Aditi",
     age: 24,
 }
+
+// [Spread]
+const hobbies4 = [...hobbies, "Reading", "Swimming"]; // to prevent creating nested arrays
+console.log(hobbies4);
+
+const user2 = {
+    major: "CS",
+    ...user
+}
