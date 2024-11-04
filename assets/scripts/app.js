@@ -135,3 +135,8 @@ function init() {
 }
 
 init();
+
+// [References vs Primitives]
+// Primitives - Numbers, Strings, Booleans - immutable, everytime an edit is made it creates a new primitive in memory
+// References/Objects - like Arrays, are mutable - variable stores address of the value in memory instead of value itself
+
